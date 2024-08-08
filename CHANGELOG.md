@@ -2,12 +2,15 @@
 
 ### General
 - Some Changes on ChangeLog 1
+- Some Changes on ChangeLog 4
 
 ### Client
 - Some Changes on ChangeLog 2
+- Some Changes on ChangeLog 5
 
 ### Server
 - Some Changes on ChangeLog 3
+- Some Changes on ChangeLog 6
 
 
 ## 2024.7.0
