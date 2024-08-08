@@ -1,4 +1,4 @@
-## Unreleased
+## 2024.8.0
 
 ### General
 - Some Changes on ChangeLog 1
