@@ -7,6 +7,7 @@
 ### Client
 - Some Changes on ChangeLog 2
 - Some Changes on ChangeLog 5
+- Some Changes on ChangeLog 8
 
 ### Server
 - Some Changes on ChangeLog 3
