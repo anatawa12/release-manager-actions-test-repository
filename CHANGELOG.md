@@ -11,6 +11,7 @@
 ### Server
 - Some Changes on ChangeLog 3
 - Some Changes on ChangeLog 6
+- Some Changes on ChangeLog 7
 
 
 ## 2024.7.0
