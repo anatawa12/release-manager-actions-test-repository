@@ -1,13 +1,13 @@
 ## Unreleased
 
 ### General
--
+- Some Changes on ChangeLog 1
 
 ### Client
--
+- Some Changes on ChangeLog 2
 
 ### Server
--
+- Some Changes on ChangeLog 3
 
 
 ## 2024.7.0
