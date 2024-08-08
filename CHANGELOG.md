@@ -1,13 +1,18 @@
-## Unreleased
+## 2024.8.0
 
 ### General
--
+- Some Changes on ChangeLog 1
+- Some Changes on ChangeLog 4
 
 ### Client
--
+- Some Changes on ChangeLog 2
+- Some Changes on ChangeLog 5
+- Some Changes on ChangeLog 8
 
 ### Server
--
+- Some Changes on ChangeLog 3
+- Some Changes on ChangeLog 6
+- Some Changes on ChangeLog 7
 
 
 ## 2024.7.0
