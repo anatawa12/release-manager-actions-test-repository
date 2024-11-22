@@ -29,12 +29,12 @@ jobs:
           STABLE_BRANCH: ${{ vars.STABLE_BRANCH }}
       - name: Get target version
         if: steps.get_pr.outputs.pr_number != ''
-        uses: misskey-dev/release-manager-actions/.github/actions/get-target-version@feat-prerelease-channel
+        uses: misskey-dev/release-manager-actions/.github/actions/get-target-version@reset-number-on-release
         id: v
       # CHANGELOG.mdの内容を取得
       - name: Get changelog
         if: steps.get_pr.outputs.pr_number != ''
-        uses: misskey-dev/release-manager-actions/.github/actions/get-changelog@feat-prerelease-channel
+        uses: misskey-dev/release-manager-actions/.github/actions/get-changelog@reset-number-on-release
         with:
           version: ${{ steps.v.outputs.target_version }}
         id: changelog

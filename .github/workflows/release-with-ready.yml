@@ -30,7 +30,7 @@ jobs:
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
   release:
-    uses: misskey-dev/release-manager-actions/.github/workflows/create-prerelease.yml@feat-prerelease-channel
+    uses: misskey-dev/release-manager-actions/.github/workflows/create-prerelease.yml@reset-number-on-release
     needs: check
     if: needs.check.outputs.head == github.event.repository.default_branch && needs.check.outputs.base == vars.STABLE_BRANCH
     with:
@@ -41,6 +41,7 @@ jobs:
       indent: ${{ vars.INDENT }}
       draft_prerelease_channel: alpha
       ready_start_prerelease_channel: beta
+      reset_number_on_channel_change: true
     secrets:
       RELEASE_APP_ID: ${{ secrets.RELEASE_APP_ID }}
       RELEASE_APP_PRIVATE_KEY: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
